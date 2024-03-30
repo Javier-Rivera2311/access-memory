@@ -1,0 +1,13 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/gabriel/Library/CloudStorage/Dropbox/Documentos/Work/ramos-UV/ramos-dictados/ICI314-ArqComp/codes-c++/access-memory'
+echo Compiling [objs/global.o]
+mkdir -p objs
+eval g++ -c -I. -I./include -std=c++17  -Wno-deprecated   global.cc -o objs/global.o
+echo Compiling [objs/main.o]
+mkdir -p objs
+eval g++ -c -I. -I./include -std=c++17  -Wno-deprecated   main.cc -o objs/main.o
+echo Linking [example]
+eval g++ -L/usr/local/lib  objs/global.o objs/main.o -lm -lpthread   -o example 
+echo Made [ example ] OK :\)
+make: Leaving directory `/Users/gabriel/Library/CloudStorage/Dropbox/Documentos/Work/ramos-UV/ramos-dictados/ICI314-ArqComp/codes-c++/access-memory'
+ 

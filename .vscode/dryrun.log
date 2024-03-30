@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory `/Users/gabriel/Library/CloudStorage/Dropbox/Documentos/Work/ramos-UV/ramos-dictados/ICI314-ArqComp/codes-c++/access-memory'
+echo Made [ example ] OK :\)
+make: Leaving directory `/Users/gabriel/Library/CloudStorage/Dropbox/Documentos/Work/ramos-UV/ramos-dictados/ICI314-ArqComp/codes-c++/access-memory'
+ 

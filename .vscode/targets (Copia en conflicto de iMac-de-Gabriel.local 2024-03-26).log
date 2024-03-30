@@ -1,0 +1,331 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Tue Mar 26 08:09:33 2024
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# makefile (from `Makefile', line 1)
+TARGET = ./example
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from `Makefile', line 16)
+CPPFLAGS = -std=c++17  -Wno-deprecated $(INTRINSICS)
+# makefile (from `Makefile', line 15)
+INCLUDES = -I. -I./include
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile (from `Makefile', line 18)
+LDLIBS = -lm -lpthread 
+# makefile
+CURDIR := /Users/gabriel/Library/CloudStorage/Dropbox/Documentos/Work/ramos-UV/ramos-dictados/ICI314-ArqComp/codes-c++/access-memory
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es","osLocale":"es-419","availableLanguages":{"*":"es"},"_languagePackId":"fdddcc5d2abdb473b51a37b50c70bd4a.es","_translationsConfigFile":"/Users/gabriel/Library/Application Support/Code/clp/fdddcc5d2abdb473b51a37b50c70bd4a.es/tcf.json","_cacheRoot":"/Users/gabriel/Library/Application Support/Code/clp/fdddcc5d2abdb473b51a37b50c70bd4a.es","_resolvedLanguagePackCoreLocation":"/Users/gabriel/Library/Application Support/Code/clp/fdddcc5d2abdb473b51a37b50c70bd4a.es/863d2581ecda6849923a2118d93a088b0745d9d6","_corruptedFile":"/Users/gabriel/Library/Application Support/Code/clp/fdddcc5d2abdb473b51a37b50c70bd4a.es/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# makefile (from `Makefile', line 4)
+DEBUG = 
+# makefile (from `Makefile', line 10)
+SOURCES = $(wildcard *.cc)
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /opt/homebrew/opt/openjdk/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin
+# environment
+LaunchInstanceID = 47D930D1-9EA8-4136-98FC-50A1B56B5A8D
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from `Makefile', line 17)
+LDFLAGS = -L/usr/local/lib 
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.IwEJOUozPL/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+PWD = /Users/gabriel/Library/CloudStorage/Dropbox/Documentos/Work/ramos-UV/ramos-dictados/ICI314-ArqComp/codes-c++/access-memory
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MANPATH = /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:/opt/homebrew/share/man:
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/gabriel
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/gabriel/Library/Application Support/Code/CachedData/863d2581ecda6849923a2118d93a088b0745d9d6
+# environment
+LOGNAME = gabriel
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = gabriel
+# makefile
+.DEFAULT_GOAL := all
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from `Makefile', line 9)
+DIR_OBJ = objs
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/g0/fdq6pck938qbwl881s0mkgsc0000gp/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/gabriel/Library/Application Support/Code/1.87-main.sock
+# environment
+MallocNanoZone = 0
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.52108725.52108731
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F6:0:86
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from `Makefile', line 6)
+CXX = g++
+# environment
+LC_ALL = C
+# environment
+SECURITYSESSIONID = 186ab
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+MAKELEVEL := 0
+# makefile (from `Makefile', line 11)
+OBJECTS = $(patsubst %.cc,$(DIR_OBJ)/%.o,$(SOURCES))
+# environment
+LANG = C
+# environment
+VSCODE_PID = 1464
+# variable set hash-table stats:
+# Load=75/1024=7%, Rehash=0, Collisions=1/107=1%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777231, inode 54531691): 9 files, no impossibilities.
+
+# 9 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+objs/%.o: %.cc
+#  commands to execute (from `Makefile', line 28):
+	@echo Compiling [$@]
+	@mkdir -p $(DIR_OBJ)
+	@eval $(CXX) -c $(INCLUDES) $(CPPFLAGS)  $< -o $@
+	
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+example: objs/global.o objs/main.o
+#  Implicit rule search has not been done.
+#  Last modified 2024-03-25 16:27:16
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 24):
+	@echo Linking [$@]
+	@eval $(CXX) $(LDFLAGS) $^ $(LDLIBS)  -o $@ 
+	
+
+objs/main.o: main.cc
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `main'
+#  Last modified 2024-03-25 16:27:16
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 28):
+	@echo Compiling [$@]
+	@mkdir -p $(DIR_OBJ)
+	@eval $(CXX) -c $(INCLUDES) $(CPPFLAGS)  $< -o $@
+	
+
+all: example
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := example
+# automatic
+# | := 
+# automatic
+# < := example
+# automatic
+# ^ := example
+# automatic
+# ? := example
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  commands to execute (from `Makefile', line 21):
+	@echo Made [ $? ] OK :\)
+	
+
+distclean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 37):
+	@$(RM) -r $(DIR_OBJ) $(TARGET)
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2024-03-25 16:12:07
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 33):
+ 
+	@$(RM) core *~ \#*\# *.bak *.BAK *\%
+	@$(RM) -f .dummy $(OBJECTS)
+	
+
+# Not a target:
+global.cc:
+#  Implicit rule search has been done.
+#  Last modified 2024-01-22 22:59:37
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+objs/global.o: global.cc
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `global'
+#  Last modified 2024-03-25 16:27:16
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 28):
+	@echo Compiling [$@]
+	@mkdir -p $(DIR_OBJ)
+	@eval $(CXX) -c $(INCLUDES) $(CPPFLAGS)  $< -o $@
+	
+
+# Not a target:
+main.cc:
+#  Implicit rule search has been done.
+#  Last modified 2024-03-25 16:17:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=11/1024=1%, Rehash=0, Collisions=0/34=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Tue Mar 26 08:09:33 2024
+
+ 
