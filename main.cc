@@ -55,11 +55,12 @@ int main(int argc, char* argv[])
 	std::cout << "pB = " << pB<< "\n";
 	std::cout << "pC = " << pC << "\n";
 	std::cout << "pD = " << pD << "\n";
+	
 	/*
 	 * 1) p_fTest es un puntero a la función fTest() 
 	 *   Determinar el tipo de datos de p_fTest
 	 */
-	void (*p_fTest)();
+	void(*p_fTest)();
 	
 	/*
 	 * 2) Una vez declarado en forma correcta, averigüe
@@ -79,6 +80,3 @@ int main(int argc, char* argv[])
 
 	return EXIT_SUCCESS;
 }
-
-
-
